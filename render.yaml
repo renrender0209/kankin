@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: kankin
+    runtime: static
+
+
+    staticPublishPath: Win_game/www
+
+
+    buildCommand: echo "no build"
+
+    autoDeployTrigger: commit
